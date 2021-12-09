@@ -1,0 +1,29 @@
+@import './modules/partners.scss';
+@import './modules/header.scss';
+@import './helpers/vars.scss';
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  font-style: normal;
+}
+
+a {
+  text-decoration: none;
+}
+
+.main-wrapper {
+  max-width: 1170px;
+  margin: 0 auto;
+
+  @media (max-width: 1169px) {
+    padding: 0 20px;
+  }
+}
